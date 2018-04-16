@@ -1,0 +1,235 @@
+/* this file is: style.css */ 
+
+/* Styles the background */
+body {
+
+background-color: black;
+
+}
+
+/* Styles the wrapper area */
+#wrapper{
+	width:1300px;
+	border: 2px solid #2F4F4F;
+	margin: 0 auto;
+	padding: 10px;
+	background-color: #F0F8FF;
+
+}
+
+/* Styles the header */
+
+header { min-width: 1000 px;
+	height: auto;
+	text-align: center;
+	font-size: 40px;
+	color: #B6BFD3;
+	padding: 10px;
+	border: 5px solid #B6BFD3;
+}
+/* Styles the navbar div */
+.navbar {    
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Styles the navbar div a components */
+.navbar a {  
+    font-size: 16px;
+    color: white;
+    text-align: left;
+    padding: 20px 5px;
+    margin: 0px 150px 0px auto;
+    text-decoration: none;
+}
+
+/* Styles the unordered anchor items */
+ul.a {
+    	list-style-type: circle;
+    	margin:15px;
+	padding:15px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+
+/*Styles drop down box*/
+.dropdown {
+    float: right;
+    overflow: hidden;
+    margin: 0px 0px 0px 0px;
+}
+/*Styles drop down button*/
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+/*Styles all hover elements*/
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: grey;
+}
+
+/*Styles drop down content*/
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/*Styles drop down content anchors*/
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+/*Styles drop down content on hover*/
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+/*Styles drop down content displayed when hovered*/
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+	
+/* Style Content */ 		
+#content {
+	max-width:1075px;
+	min-width:1075px;
+	float: right;
+	background-color: #58C5C5;
+	margin: -250px auto 0px auto;
+	padding: 10px;
+	}
+	
+#content2 {
+	min-width:1075px;
+	float: right;
+	background-color: #58C5C5;
+	margin: -250px auto 0px auto;
+	padding: 10px;
+	}
+
+/* Style images contained within the Body of tour pages */ 		
+.img-container2 {
+    float: right;
+    width: 346px;
+    padding: 5px;
+}
+	
+
+/* Style images contained under the nav */ 
+.img-container3 {
+    float: right;
+    width: 346px;
+    padding: 5px;
+}
+
+/* Clear the container Content */ 		
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/* Style Heading two styles */ 		
+
+h2 {
+	color: Grey;
+	text-align: left;	
+}
+
+
+/* Style current tab in menu */
+a.current_page{
+	color: Grey;
+	text-decoration; underline;
+	text-align; left;
+	}
+
+/* Style anchor elements when hovered over*/
+a:hover {
+	background-color: grey;
+	}
+	
+/* Style vertical menu */
+.vertical-menu {
+    min-width: 200px;
+}
+
+/* Style vertical anchors menu */
+.vertical-menu a {
+    background-color: #eee;
+    float left;
+    color: black;
+    display: block;
+    padding: 12px;
+    margin 2px,0px,0px,0px;
+    text-decoration: none;
+}
+
+/* Style vertical menu hover options */
+.vertical-menu a:hover {
+    background-color: #ccc;
+}
+
+
+/* Style vertical menu Title options */
+.vertical-menu a.active {
+    background-color: #B6BFD3;
+    color: white;
+}
+
+/* Style table options */
+
+table {
+    width:1075px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color: #fff;
+}
+table#t01 th {
+    background-color: black;
+    color: white;
+}
+
+
+/* Style footer options */
+footer { 
+	max-width: 1280px;
+	margin: -15px auto 25px auto;
+	color: black;
+	clear: both;
+	height: 80px ;
+	padding: 0px;
+	
+}
+
+
